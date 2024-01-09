@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <table>
+    <form action="" method="get">
+        <label for="">Username:</label> 
+        <input type="text"> <br>
+        <label for="">Password:</label>
+        <input type="password"> <br>
+        <label for="">Age:</label>
+        <input type="number" min="1" masx="100"> <br>
+        <label for="">phonenumber =123-456-7890</label> 
+        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="111-111-1111" required> <br>
+
+        <label for="">เกมที่ชอบ</label>
+        <select name="" id="">
+            <option value="ROV">ROV</option>
+            <option value="GTA">GTA</option>
+            <option value="ROBLOX">ROBLOX</option>
+        </select> <br>
+
+        <label for="">กิจกรรมที่ชอบ</label>
+        <input type="checkbox" value="กิน">กิน
+        <input type="checkbox" value="นอน">นอน
+        <input type="checkbox" value="เล่นเกม">เล่นเกม <br>
+
+        <label for="">โตขึ้นอยากทำอาชีพอะไร</label>
+        <input type="radio" name="work" value="ช่างทำผม">ช่างทำผม
+        <input type="radio" name="work" value="ช่างไฟฟ้า">ช่างไฟฟ้า
+        <input type="radio" name="work" value="ช่างกล">ช่างกล
+        <input type="radio" name="work" value="เจ้าของร้านอาหาร">เจ้าของร้านอาหาร <br>
+
+        <input type="submit" value="บันทึกข้อมูล">
+        <input type="reset">
+    
+    </form>
+    </table>
+</body>
+</html>
